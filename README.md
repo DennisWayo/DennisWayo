@@ -35,15 +35,6 @@ I am a quantum photonics and research software developer working at the intersec
 - **Advocate:** reproducible and open science
 - **Reach me**: dwayo3@gatech.edu
 
-<table>
-<tr>
-<td>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" />
-
-</td>
-<td>
-
 <img 
   src="https://streak-stats.demolab.com?user=DennisWayo
   &theme=github-dark
@@ -55,8 +46,3 @@ I am a quantum photonics and research software developer working at the intersec
   &sideNums=FFFFFF
   &dates=8B949E" 
 />
-
-</td>
-</tr>
-</table>
-
