@@ -24,8 +24,7 @@
 
 | Stats | Streak |
 |---|---|
-| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" /> |<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DennisWayo&theme=github" />|
-
+| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" /> |<img src="https://github-readme-streak-stats.herokuapp.com/?user=DennisWayo&theme=github-dark&hide_border=true" />|
 I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers** for algorithmic and architectural studies. 
 
 - **Focus:** quantum architecture, CV photonics, simulators, and QML  
@@ -34,15 +33,3 @@ I am a quantum photonics and research software developer working at the intersec
 - **Active in:** PennyLane–Qiskit ecosystem and Unitary Foundation initiatives  
 - **Advocate:** reproducible and open science
 - **Reach me**: dwayo3@gatech.edu
-
-<img 
-  src="https://streak-stats.demolab.com?user=DennisWayo
-  &theme=github-dark
-  &hide_border=true
-  &background=0D1117
-  &ring=58A6FF
-  &fire=F78166
-  &currStreakNum=FFFFFF
-  &sideNums=FFFFFF
-  &dates=8B949E" 
-/>
