@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/Python-black?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PennyLane-black?logo=quantconnect&logoColor=white" />
   <img src="https://img.shields.io/badge/Qiskit-black?logo=ibm&logoColor=white" />
+  <img src="https://img.shields.io/badge/GPAW-black?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MEEP-black?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Metal-black?logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/JAX-black?logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white" />
