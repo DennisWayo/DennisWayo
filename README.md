@@ -24,7 +24,7 @@
 
 | Stats | Streak |
 |---|---|
-| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" /> | <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=" alt="GitHub Streak" /></a>|
+| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=DennisWayo&hide_border=true" />|
 
 
 I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers** for algorithmic and architectural studies. 
