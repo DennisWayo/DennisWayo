@@ -30,7 +30,7 @@ I am a quantum photonics and research software developer working at the intersec
 - **Focus:** quantum architecture, CV photonics, simulators, and QML  
 - **Builder:** SchroSIM — a hardware-agnostic quantum photonic circuit simulator  
 - **Mentor:** IBM Quantum Accelerator Program (QAMP)  
-- **Active in:** PennyLane ecosystem and Unitary Foundation initiatives  
+- **Active in:** PennyLane–Qiskit ecosystem and Unitary Foundation initiatives  
 - **Advocate:** reproducible and open science
 - **Reach me**: dwayo3@gatech.edu
 
