@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://githubcard.com/profile/DennisWayo?theme=default" />
+</p>
+
 <h1 align="center">Hi there 👋</h1>
 
 <p align="center">
