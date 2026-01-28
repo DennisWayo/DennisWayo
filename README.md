@@ -81,5 +81,5 @@ I am a **quantum photonics and research software developer** working at the inte
 - (Optional) Personal site / Google Scholar / LinkedIn
 
 <p align="center">
-  <img src="https://githubcard.com/profile/DennisWayo?theme=default" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DennisWayo&theme=github" />
 </p>
