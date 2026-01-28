@@ -11,9 +11,8 @@
   <a href="https://github.com/DennisWayo">
     <img src="https://img.shields.io/github/stars/DennisWayo?label=Stars&style=social" />
   </a>
-</p>
 
-<p align="center">
+  <p align="center">
   <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-black?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PennyLane-black?logo=quantconnect&logoColor=white" />
@@ -22,6 +21,8 @@
   <img src="https://img.shields.io/badge/JAX-black?logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-black?logo=google&logoColor=white" />
 </p>
+
+
 
 
 <p align="center">
