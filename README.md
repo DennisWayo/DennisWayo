@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://githubcard.com/profile/DennisWayo?theme=default" />
-</p>
-
 <h1 align="center">Hi there 👋</h1>
 
 <p align="center">
@@ -83,3 +79,7 @@ I am a **quantum photonics and research software developer** working at the inte
 - GitHub: https://github.com/DennisWayo
 - TechRxiv: https://www.techrxiv.org/
 - (Optional) Personal site / Google Scholar / LinkedIn
+
+<p align="center">
+  <img src="https://githubcard.com/profile/DennisWayo?theme=default" />
+</p>
