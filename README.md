@@ -25,11 +25,6 @@
 | <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=DennisWayo&hide_border=true" /> |
 
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DennisWayo&theme=github" />
-</p>
-
-
 I am a **quantum photonics and research software developer** working at the intersection of **continuous-variable quantum computing**, **photonic hardware abstraction**, and **open-source tooling**.
 
 - **Focus:** quantum architecture, CV photonics, simulators, and QML  
