@@ -11,8 +11,7 @@
   <a href="https://github.com/DennisWayo">
     <img src="https://img.shields.io/github/stars/DennisWayo?label=Stars&style=social" />
   </a>
-
-  <p align="center">
+  
   <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-black?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PennyLane-black?logo=quantconnect&logoColor=white" />
