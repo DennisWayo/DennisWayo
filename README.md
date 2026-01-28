@@ -52,6 +52,9 @@ I am a **quantum photonics and research software developer** working at the inte
 ---
 
 ## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DennisWayo&show_icons=true&hide_border=true&count_private=true" />
@@ -80,6 +83,4 @@ I am a **quantum photonics and research software developer** working at the inte
 - TechRxiv: https://www.techrxiv.org/
 - (Optional) Personal site / Google Scholar / LinkedIn
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" />
-</p>
+
