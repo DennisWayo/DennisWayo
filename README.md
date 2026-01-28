@@ -20,8 +20,6 @@
   <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white" />
 </p>
 
----
-
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DennisWayo&theme=github" />
 </p>
@@ -34,8 +32,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DennisWayo&hide_border=true" />
 </p>
 
----
-
 I am a **quantum photonics and research software developer** working at the intersection of **continuous-variable quantum computing**, **photonic hardware abstraction**, and **open-source tooling**.
 
 - **Focus:** quantum architecture, CV photonics, simulators, and QML  
@@ -43,20 +39,3 @@ I am a **quantum photonics and research software developer** working at the inte
 - **Contributor:** PennyLane, Unitary Foundation initiatives  
 - **Advocate:** reproducible and open science
 
----
-
-## 🚀 Featured Project
-
-### **SchroSIM**
-> Schrödinger-inspired, Metal-accelerated quantum photonic circuit simulator  
-> CV + non-Gaussian • Hardware-agnostic • Open-source
-
-🔗 https://github.com/DennisWayo/SchroSIM  
-
----
-
-## 🌱 Current Activities
-
-- 🧪 Architecture-aware CV documentation for PennyLane (unitaryDESIGN 2026)
-- 🧩 Open-source quantum photonic simulation tooling
-- 📚 Science communication and education in quantum computing
