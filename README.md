@@ -1,7 +1,7 @@
 <h1 align="center">Hi there 👋</h1>
 
 <p align="center">
-  Quantum Photonics • Quantum Architecture • Open-Source Research Software
+  Quantum Photonics • Quantum Architecture • Quantum Machine Learning • Open-Source Research Software
 </p>
 
 <p align="center">
