@@ -24,7 +24,7 @@ I am a quantum photonics and research software developer working at the intersec
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="70%" valign="top">
 
 - **Focus:** quantum architecture, CV photonics, simulators, and QML  
 - **Builder:** SchroSIM — a hardware-agnostic quantum photonic circuit simulator  
@@ -34,7 +34,7 @@ I am a quantum photonics and research software developer working at the intersec
 - **Reach me:** dwayo3@gatech.edu  
 
 </td>
-<td width="40%" align="center">
+<td width="30%" align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" />
 
