@@ -31,6 +31,27 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DennisWayo&theme=github" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DennisWayo&theme=github&hide_border=true&area=true" />
+</p>
+
+
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DennisWayo&theme=flat&no-frame=true&column=4" />
+</p>
+
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DennisWayo&theme=github" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DennisWayo&theme=github" />
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DennisWayo/DennisWayo/output/github-contribution-grid-snake.svg" />
+</p>
 
 
 I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers** for algorithmic and architectural studies. 
