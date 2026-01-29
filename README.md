@@ -1,5 +1,5 @@
 <p align="center">
-  **Quantum Photonics • Quantum Architecture • Quantum Machine Learning • Open-Source Research Software**
+  Quantum Photonics • Quantum Architecture • Quantum Machine Learning • Open-Source Research Software
 </p>
 
 <p align="center">
