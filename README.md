@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-black?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Julia-black?logo=julia&logoColor=white" />
   <img src="https://img.shields.io/badge/JAX-black?logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Metal-black?logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/PennyLane-black?logo=quantconnect&logoColor=white" />
