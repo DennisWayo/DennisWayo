@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-black?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JAX-black?logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metal-black?logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/PennyLane-black?logo=quantconnect&logoColor=white" />
   <img src="https://img.shields.io/badge/Qiskit-black?logo=ibm&logoColor=white" />
   <img src="https://img.shields.io/badge/GPAW-black?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MEEP-black?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Metal-black?logo=apple&logoColor=white" />
-  <img src="https://img.shields.io/badge/JAX-black?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white" />
   <a href="https://github.com/DennisWayo">
     <img src="https://img.shields.io/github/followers/DennisWayo?label=Followers&style=social" />
   </a>
@@ -20,11 +20,31 @@
   </a>
 </p>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=DennisWayo&hide_border=true&short_numbers=true)]
 
 | Stats | Streak |
 |---|---|
-| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" />| <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=DennisWayo&hide_border=true&short_numbers=true" alt="GitHub Streak" /></a>|
+| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DennisWayo&theme=github" />| |
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DennisWayo&theme=github" />
+</p>
+
+
+
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DennisWayo&show_icons=true&hide_border=true&count_private=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DennisWayo&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DennisWayo&theme=github" />
+</p>
+
+
 
 I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers** for algorithmic and architectural studies. 
 
