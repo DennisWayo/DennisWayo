@@ -15,6 +15,7 @@
   <img src="https://img.shields.io/badge/MEEP-black?logo=python&logoColor=white" />
   <a href="https://github.com/DennisWayo">
     <img src="https://img.shields.io/github/forks/DennisWayo/REPO_NAME?label=Forks&style=social" />
+    <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Profile%20Views&style=flat" />
   <a href="https://github.com/DennisWayo">
     <img src="https://img.shields.io/github/stars/DennisWayo?label=Stars&style=social" />
   </a>
