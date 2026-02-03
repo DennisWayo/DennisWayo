@@ -14,9 +14,8 @@
   <img src="https://img.shields.io/badge/GPAW-black?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MEEP-black?logo=python&logoColor=white" />
   <a href="https://github.com/DennisWayo">
-    <img src="https://img.shields.io/github/forks/DennisWayo/REPO_NAME?label=Forks&style=social" />
     <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Profile%20Views&style=flat" />
-    <img src="https://img.shields.io/badge/Public%20Repos-XX-blue" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DennisWayo" />
   <a href="https://github.com/DennisWayo">
     <img src="https://img.shields.io/github/stars/DennisWayo?label=Stars&style=social" />
   </a>
