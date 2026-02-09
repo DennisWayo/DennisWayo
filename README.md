@@ -19,7 +19,7 @@
   </a>
 </p>
 
-I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers** for algorithmic and architectural studies. <PhD ChemEng @umpsa| MS CS @gatech >
+I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers (PennyLane)** for algorithmic and architectural studies. <PhD ChemEng @umpsa| MS CS @gatech >
 
 <table>
 <tr>
