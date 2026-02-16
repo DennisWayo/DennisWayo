@@ -2,7 +2,7 @@
   Quantum Photonics • Quantum Architecture • Quantum Machine Learning • Open-Source Research Software
 </p>
 
-<<p align="center">
+<p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-20-black?logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=white" />
