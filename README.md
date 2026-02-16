@@ -2,7 +2,8 @@
   Quantum Photonics • Quantum Architecture • Quantum Machine Learning • Open-Source Research Software
 </p>
 
-<p align="center">
+<<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-20-black?logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-black?logo=python&logoColor=white" />
@@ -13,7 +14,6 @@
   <img src="https://img.shields.io/badge/Qiskit-black?logo=ibm&logoColor=white" />
   <img src="https://img.shields.io/badge/GPAW-black?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MEEP-black?logo=python&logoColor=white" />
-  <a href="https://github.com/DennisWayo">
   <a href="https://github.com/DennisWayo">
     <img src="https://img.shields.io/github/stars/DennisWayo?label=Stars&style=social" />
   </a>
