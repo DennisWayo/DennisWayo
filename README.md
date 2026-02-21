@@ -32,8 +32,6 @@ I am a quantum photonics and research software developer working at the intersec
 - **Advocate:** reproducible and open science  
 - **Reach me:** dwayo3@gatech.edu
 - <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Profile%20Views&color=0e75b6&style=flat" alt="DennisWayo profile views" /> </p>
-- <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Quantum%20Profile%20Views&color=7b68ee&style=flat-square" alt="DennisWayo profile views" />
-</p>
 
 </td>
 <td width="30%" align="center">
