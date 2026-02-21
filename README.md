@@ -19,10 +19,7 @@
   </a>
 </p>
 
-I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers (PennyLane)** for algorithmic and architectural studies. <PhD ChemEng @umpsa| MS CS @gatech > 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Profile%20Views&color=0e75b6&style=flat" alt="DennisWayo profile views" />
-</p>
+I am a quantum photonics and research software developer working at the intersection of continuous-variable quantum computing, photonic hardware abstraction, and open-source tooling. My work spans **first-principles materials modeling (GPAW)**, **classical photonics simulation (MEEP)**, and **quantum photonic abstraction layers (PennyLane)** for algorithmic and architectural studies. <PhD ChemEng @umpsa| MS CS @gatech > <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Profile%20Views&color=0e75b6&style=flat" alt="DennisWayo profile views" /> </p>
 
 <table>
 <tr>
