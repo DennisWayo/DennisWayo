@@ -26,7 +26,7 @@ I am a quantum photonics and research software developer working at the intersec
 <td width="70%" valign="top">
 
 - **Focus:** quantum architecture, CV photonics, simulators, and QML  
-- **Builder:** LiDMaS+ & SchroSIM — a quantum error correction/decoder & quantum photonic circuit simulator  
+- **Builder:** LiDMaS+ & SchroSIM — a qec/decoder & quantum photonic circuit simulator  
 - **Mentor:** IBM Qiskit Advocate Mentorship Program (QAMP)  
 - **Active in:** PennyLane–Qiskit ecosystem and Unitary Foundation initiatives  
 - **Advocate:** reproducible and open science  
