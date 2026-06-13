@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
   <title id="title">Animated quantum error correction syndrome lattice</title>
-  <desc id="desc">A stylized surface-code syndrome lattice with pulsing defects, decoder paths, and correction traces.</desc>
+  <desc id="desc">A stylized surface-code syndrome lattice with pulsing defects, decoder paths, correction traces, and residual checks.</desc>
 
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#07111f"/>
-      <stop offset="54%" stop-color="#0b1224"/>
+      <stop offset="55%" stop-color="#0b1224"/>
       <stop offset="100%" stop-color="#101827"/>
     </linearGradient>
 
@@ -15,7 +15,7 @@
       <stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
 
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <filter id="glow" x="-45%" y="-45%" width="190%" height="190%">
       <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -23,11 +23,13 @@
       </feMerge>
     </filter>
 
+    <circle id="nodeMark" class="node" r="4.8"/>
+
     <style>
       .label {
         font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
         font-size: 13px;
-        fill: #cbd5e1;
+        fill: #dbeafe;
         letter-spacing: .02em;
       }
 
@@ -38,14 +40,14 @@
 
       .grid {
         stroke: #94a3b8;
-        stroke-width: 1.1;
-        stroke-opacity: .28;
+        stroke-width: 1.05;
+        stroke-opacity: .24;
       }
 
       .node {
         fill: #0f172a;
         stroke: #64748b;
-        stroke-width: 1.2;
+        stroke-width: 1.25;
       }
 
       .data {
@@ -75,10 +77,19 @@
         opacity: .8;
       }
 
+      .edge-soft {
+        fill: none;
+        stroke: #60a5fa;
+        stroke-width: 2.2;
+        stroke-linecap: round;
+        stroke-dasharray: 5 9;
+        opacity: .58;
+      }
+
       .correction {
         fill: none;
         stroke: #f59e0b;
-        stroke-width: 3.2;
+        stroke-width: 3.1;
         stroke-linecap: round;
         stroke-dasharray: 1 12;
         opacity: .75;
@@ -86,97 +97,180 @@
 
       .stream {
         fill: #22d3ee;
-        opacity: .58;
+        opacity: .64;
+      }
+
+      .check {
+        fill: none;
+        stroke: #22d3ee;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-dasharray: 2 8;
+        opacity: .65;
       }
     </style>
   </defs>
 
-  <rect x="10" y="10" width="740" height="240" rx="20" fill="url(#panel)" stroke="#1e293b"/>
+  <rect x="10" y="10" width="740" height="410" rx="20" fill="url(#panel)" stroke="#1e293b"/>
 
-  <text x="44" y="45" class="label">syndrome stream</text>
-  <text x="584" y="45" class="label">decoder replay</text>
-  <text x="44" y="226" class="label subtle">LiDMaS+ style QEC trace: defects -> matching graph -> correction</text>
+  <text x="36" y="42" class="label">syndrome stream</text>
+  <text x="575" y="42" class="label">decoder replay</text>
+  <text x="36" y="392" class="label subtle">LiDMaS+ style QEC trace: syndrome defects -> matching graph -> correction -> residual check</text>
 
-  <g transform="translate(48 58)">
-    <rect class="stream" x="0" y="0" width="8" height="28" rx="3">
-      <animate attributeName="height" values="18;42;24;34;18" dur="2.2s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="10;-4;6;2;10" dur="2.2s" repeatCount="indefinite"/>
+  <g transform="translate(42 56)">
+    <rect class="stream" x="0" y="12" width="8" height="42" rx="3">
+      <animate attributeName="height" values="26;54;34;46;26" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="20;6;16;10;20" dur="2.2s" repeatCount="indefinite"/>
     </rect>
-    <rect class="stream" x="16" y="8" width="8" height="20" rx="3">
-      <animate attributeName="height" values="24;16;40;22;24" dur="2.4s" begin=".2s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="6;14;-2;8;6" dur="2.4s" begin=".2s" repeatCount="indefinite"/>
+    <rect class="stream" x="18" y="23" width="8" height="30" rx="3">
+      <animate attributeName="height" values="34;24;58;36;34" dur="2.4s" begin=".2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="18;28;4;16;18" dur="2.4s" begin=".2s" repeatCount="indefinite"/>
     </rect>
-    <rect class="stream" x="32" y="2" width="8" height="32" rx="3">
-      <animate attributeName="height" values="36;20;28;44;36" dur="2.6s" begin=".4s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="-2;10;6;-6;-2" dur="2.6s" begin=".4s" repeatCount="indefinite"/>
+    <rect class="stream" x="36" y="8" width="8" height="52" rx="3">
+      <animate attributeName="height" values="54;30;42;64;54" dur="2.6s" begin=".4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="6;18;12;0;6" dur="2.6s" begin=".4s" repeatCount="indefinite"/>
     </rect>
-    <rect class="stream" x="48" y="12" width="8" height="18" rx="3">
-      <animate attributeName="height" values="16;38;20;30;16" dur="2.3s" begin=".6s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="12;-2;8;3;12" dur="2.3s" begin=".6s" repeatCount="indefinite"/>
+    <rect class="stream" x="54" y="28" width="8" height="24" rx="3">
+      <animate attributeName="height" values="24;52;28;40;24" dur="2.3s" begin=".6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="28;8;20;14;28" dur="2.3s" begin=".6s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <g id="lattice">
-    <path class="grid" d="M140 70H620M140 130H620M140 190H620"/>
-    <path class="grid" d="M140 70V190M220 70V190M300 70V190M380 70V190M460 70V190M540 70V190M620 70V190"/>
+    <path class="grid" d="M100 76H666M100 134H666M100 192H666M100 250H666M100 308H666"/>
+    <path class="grid" d="M100 76V308M171 76V308M242 76V308M313 76V308M384 76V308M455 76V308M526 76V308M597 76V308M666 76V308"/>
 
-    <path class="grid" d="M140 70L220 130L300 70L380 130L460 70L540 130L620 70"/>
-    <path class="grid" d="M140 190L220 130L300 190L380 130L460 190L540 130L620 190"/>
+    <path class="grid" d="M100 76L171 134L242 76L313 134L384 76L455 134L526 76L597 134L666 76"/>
+    <path class="grid" d="M100 134L171 192L242 134L313 192L384 134L455 192L526 134L597 192L666 134"/>
+    <path class="grid" d="M100 192L171 250L242 192L313 250L384 192L455 250L526 192L597 250L666 192"/>
+    <path class="grid" d="M100 250L171 308L242 250L313 308L384 250L455 308L526 250L597 308L666 250"/>
+
+    <path class="grid" d="M100 308L171 250L242 308L313 250L384 308L455 250L526 308L597 250L666 308"/>
+    <path class="grid" d="M100 250L171 192L242 250L313 192L384 250L455 192L526 250L597 192L666 250"/>
+    <path class="grid" d="M100 192L171 134L242 192L313 134L384 192L455 134L526 192L597 134L666 192"/>
+    <path class="grid" d="M100 134L171 76L242 134L313 76L384 134L455 76L526 134L597 76L666 134"/>
 
     <g>
-      <circle class="node" cx="140" cy="70" r="5"/>
-      <circle class="node" cx="220" cy="70" r="5"/>
-      <circle class="node" cx="300" cy="70" r="5"/>
-      <circle class="node" cx="380" cy="70" r="5"/>
-      <circle class="node" cx="460" cy="70" r="5"/>
-      <circle class="node" cx="540" cy="70" r="5"/>
-      <circle class="node" cx="620" cy="70" r="5"/>
+      <use href="#nodeMark" x="100" y="76"/>
+      <use href="#nodeMark" x="171" y="76"/>
+      <use href="#nodeMark" x="242" y="76"/>
+      <use href="#nodeMark" x="313" y="76"/>
+      <use href="#nodeMark" x="384" y="76"/>
+      <use href="#nodeMark" x="455" y="76"/>
+      <use href="#nodeMark" x="526" y="76"/>
+      <use href="#nodeMark" x="597" y="76"/>
+      <use href="#nodeMark" x="666" y="76"/>
 
-      <circle class="node" cx="140" cy="130" r="5"/>
-      <circle class="node" cx="220" cy="130" r="5"/>
-      <circle class="node" cx="300" cy="130" r="5"/>
-      <circle class="node" cx="380" cy="130" r="5"/>
-      <circle class="node" cx="460" cy="130" r="5"/>
-      <circle class="node" cx="540" cy="130" r="5"/>
-      <circle class="node" cx="620" cy="130" r="5"/>
+      <use href="#nodeMark" x="100" y="134"/>
+      <use href="#nodeMark" x="171" y="134"/>
+      <use href="#nodeMark" x="242" y="134"/>
+      <use href="#nodeMark" x="313" y="134"/>
+      <use href="#nodeMark" x="384" y="134"/>
+      <use href="#nodeMark" x="455" y="134"/>
+      <use href="#nodeMark" x="526" y="134"/>
+      <use href="#nodeMark" x="597" y="134"/>
+      <use href="#nodeMark" x="666" y="134"/>
 
-      <circle class="node" cx="140" cy="190" r="5"/>
-      <circle class="node" cx="220" cy="190" r="5"/>
-      <circle class="node" cx="300" cy="190" r="5"/>
-      <circle class="node" cx="380" cy="190" r="5"/>
-      <circle class="node" cx="460" cy="190" r="5"/>
-      <circle class="node" cx="540" cy="190" r="5"/>
-      <circle class="node" cx="620" cy="190" r="5"/>
+      <use href="#nodeMark" x="100" y="192"/>
+      <use href="#nodeMark" x="171" y="192"/>
+      <use href="#nodeMark" x="242" y="192"/>
+      <use href="#nodeMark" x="313" y="192"/>
+      <use href="#nodeMark" x="384" y="192"/>
+      <use href="#nodeMark" x="455" y="192"/>
+      <use href="#nodeMark" x="526" y="192"/>
+      <use href="#nodeMark" x="597" y="192"/>
+      <use href="#nodeMark" x="666" y="192"/>
+
+      <use href="#nodeMark" x="100" y="250"/>
+      <use href="#nodeMark" x="171" y="250"/>
+      <use href="#nodeMark" x="242" y="250"/>
+      <use href="#nodeMark" x="313" y="250"/>
+      <use href="#nodeMark" x="384" y="250"/>
+      <use href="#nodeMark" x="455" y="250"/>
+      <use href="#nodeMark" x="526" y="250"/>
+      <use href="#nodeMark" x="597" y="250"/>
+      <use href="#nodeMark" x="666" y="250"/>
+
+      <use href="#nodeMark" x="100" y="308"/>
+      <use href="#nodeMark" x="171" y="308"/>
+      <use href="#nodeMark" x="242" y="308"/>
+      <use href="#nodeMark" x="313" y="308"/>
+      <use href="#nodeMark" x="384" y="308"/>
+      <use href="#nodeMark" x="455" y="308"/>
+      <use href="#nodeMark" x="526" y="308"/>
+      <use href="#nodeMark" x="597" y="308"/>
+      <use href="#nodeMark" x="666" y="308"/>
     </g>
 
-    <path class="edge" d="M220 70C265 98 312 102 380 130">
-      <animate attributeName="stroke-dashoffset" from="36" to="0" dur="1.8s" repeatCount="indefinite"/>
+    <path class="edge" d="M171 76C225 90 260 120 313 134C357 146 402 142 455 134">
+      <animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values=".25;.95;.65;.25" dur="3s" repeatCount="indefinite"/>
     </path>
-    <path class="edge" d="M380 130C430 112 478 102 540 70">
-      <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="2s" repeatCount="indefinite"/>
+    <path class="edge" d="M455 134C495 160 545 194 597 250">
+      <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values=".25;.55;.95;.25" dur="3.2s" begin=".45s" repeatCount="indefinite"/>
     </path>
-    <path class="correction" d="M220 70L300 70L380 130L460 130L540 70">
-      <animate attributeName="stroke-dashoffset" from="42" to="0" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".2;.8;.35;.2" dur="3s" begin=".3s" repeatCount="indefinite"/>
+    <path class="edge-soft" d="M242 250C310 230 354 202 384 192C432 176 470 180 526 192">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.6s" begin=".25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.72;.35;.2" dur="2.7s" repeatCount="indefinite"/>
+    </path>
+    <path class="edge-soft" d="M313 308C350 278 405 252 455 250C502 248 548 278 597 308">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.7s" begin=".7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".18;.6;.32;.18" dur="2.9s" repeatCount="indefinite"/>
     </path>
 
-    <circle class="defect" cx="220" cy="70" r="7">
+    <path class="correction" d="M171 76L242 76L313 134L384 134L455 134L526 192L597 250">
+      <animate attributeName="stroke-dashoffset" from="46" to="0" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.8;.35;.2" dur="3s" begin=".3s" repeatCount="indefinite"/>
+    </path>
+    <path class="correction" d="M242 250L313 250L384 192L455 250L526 250L597 308">
+      <animate attributeName="stroke-dashoffset" from="0" to="-46" dur="2.6s" begin=".9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".18;.7;.32;.18" dur="3.1s" begin=".5s" repeatCount="indefinite"/>
+    </path>
+
+    <path class="check" d="M120 352H640">
+      <animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.75;.25" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <circle class="data" cx="154" cy="352" r="5.5">
+      <animate attributeName="fill" values="#111827;#22d3ee;#111827" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="data" cx="250" cy="352" r="5.5">
+      <animate attributeName="fill" values="#111827;#818cf8;#111827" dur="2.3s" begin=".35s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="data" cx="346" cy="352" r="5.5">
+      <animate attributeName="fill" values="#111827;#22d3ee;#111827" dur="2.3s" begin=".7s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="data" cx="442" cy="352" r="5.5">
+      <animate attributeName="fill" values="#111827;#f472b6;#111827" dur="2.3s" begin="1.05s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="data" cx="538" cy="352" r="5.5">
+      <animate attributeName="fill" values="#111827;#818cf8;#111827" dur="2.3s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle class="defect" cx="171" cy="76" r="7">
       <animate attributeName="r" values="6;12;6" dur="2.2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values=".9;.35;.9" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <circle class="defect defect-alt" cx="380" cy="130" r="7">
+    <circle class="defect defect-alt" cx="313" cy="134" r="7">
       <animate attributeName="r" values="5;11;5" dur="2.4s" begin=".35s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values=".85;.3;.85" dur="2.4s" begin=".35s" repeatCount="indefinite"/>
     </circle>
-    <circle class="defect" cx="540" cy="70" r="7">
+    <circle class="defect" cx="455" cy="134" r="7">
       <animate attributeName="r" values="6;12;6" dur="2.6s" begin=".7s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values=".9;.25;.9" dur="2.6s" begin=".7s" repeatCount="indefinite"/>
     </circle>
+    <circle class="defect defect-alt" cx="597" cy="250" r="7">
+      <animate attributeName="r" values="5;11;5" dur="2.5s" begin="1.05s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".85;.3;.85" dur="2.5s" begin="1.05s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="defect" cx="242" cy="250" r="7">
+      <animate attributeName="r" values="6;12;6" dur="2.7s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".9;.3;.9" dur="2.7s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <g transform="translate(586 58)">
+  <g transform="translate(584 58)">
     <circle class="data" cx="0" cy="16" r="7">
       <animate attributeName="fill" values="#111827;#22d3ee;#111827" dur="2.3s" repeatCount="indefinite"/>
     </circle>
@@ -186,7 +280,7 @@
     <circle class="data" cx="56" cy="16" r="7">
       <animate attributeName="fill" values="#111827;#f472b6;#111827" dur="2.3s" begin=".7s" repeatCount="indefinite"/>
     </circle>
-    <path d="M82 16h42" stroke="#38bdf8" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="4 7">
+    <path d="M82 16h44" stroke="#38bdf8" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="4 7">
       <animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1s" repeatCount="indefinite"/>
     </path>
   </g>
