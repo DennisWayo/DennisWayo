@@ -22,19 +22,15 @@ I am a quantum error correction and quantum software researcher building infrast
 
 I am currently developing **LiDMaS+**, a C++/Rust logical-decoder benchmarking engine for replay-driven QEC studies, decoder comparability, syndrome diagnostics, and reproducible threshold-style workflows. I also build **SchroSIM**, a hardware-agnostic photonic quantum simulator for continuous-variable circuits, Gaussian/non-Gaussian simulation paths, and GKP-oriented architecture studies.
 
-My open-source work spans **PennyLane, Qiskit, Mitiq, Qibolab, Qibo**, and related quantum tooling, with contributions in testing, documentation, diagnostics, circuit rendering, emulator backends, and reproducible examples.
-
-**Research interests:** quantum error correction, decoder benchmarking, photonic/CV simulation, GKP codes, tensor-network methods, scientific computing, and compiler-aware quantum architecture modeling.
-
 <br clear="right" />
 
 <table>
 <tr>
 <td width="70%" valign="top">
 
-- **Focus:** quantum error correction, quantum architecture, CV photonics, simulators, and QML
+- **Focus:** quantum error correction, decoder benchmarking, photonic/CV simulation, GKP codes, tensor-network methods, scientific computing, and compiler-aware quantum architecture modeling
 - **Builder:** LiDMaS+ and SchroSIM — QEC decoder infrastructure and photonic circuit simulation
-- **Mentor:** IBM Qiskit Advocate Mentorship Program
+- **Mentor:** IBM Qiskit Advocate Mentorship Program & QGSS
 - **Active in:** PennyLane, Qiskit, Mitiq, Qibolab, and Unitary Foundation initiatives
 - **Advocate:** reproducible and open science
 - **Reach me:** dwayo3@gatech.edu
