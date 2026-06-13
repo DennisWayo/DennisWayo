@@ -22,7 +22,7 @@ I am a quantum error correction and quantum software researcher building infrast
 
 I am currently developing **LiDMaS+**, a C++/Rust logical-decoder benchmarking engine for replay-driven QEC studies, decoder comparability, syndrome diagnostics, and reproducible threshold-style workflows. I also build **SchroSIM**, a hardware-agnostic photonic quantum simulator for continuous-variable circuits, Gaussian/non-Gaussian simulation paths, and GKP-oriented architecture studies.
 
-**Focus:** quantum error correction, decoder benchmarking, photonic/CV simulation, GKP codes, tensor-network methods, scientific computing, and compiler-aware quantum architecture modeling
+**Focus:** quantum error correction, decoder benchmarking, photonic/CV simulation, GKP–Surface codes, tensor-network methods, scientific computing, and compiler-aware quantum architecture modeling
 
 <br clear="right" />
 
