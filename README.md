@@ -29,10 +29,8 @@ I am currently developing **LiDMaS+**, a C++/Rust logical-decoder benchmarking e
 <td width="70%" valign="top">
 
 - **Focus:** quantum error correction, decoder benchmarking, photonic/CV simulation, GKP codes, tensor-network methods, scientific computing, and compiler-aware quantum architecture modeling
-- **Builder:** LiDMaS+ and SchroSIM — QEC decoder infrastructure and photonic circuit simulation
 - **Mentor:** IBM Quantum — QAMP & QGSS
 - **Active in:** PennyLane, Qiskit, Mitiq, Qibolab, and Unitary Foundation initiatives
-- **Advocate:** reproducible and open science
 - **Reach me:** dwayo3@gatech.edu
 
 <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Profile%20Views&color=0e75b6&style=flat" alt="DennisWayo profile views" />
