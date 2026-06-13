@@ -16,17 +16,34 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="./assets/qec-syndrome.svg" width="640" alt="Animated quantum error correction syndrome lattice" />
+<table>
+<tr>
+<td width="58%" valign="top">
+
+<p>
+I am a quantum error correction and quantum software researcher building infrastructure for fault-tolerant, photonic, and hybrid quantum architectures. My work focuses on decoder benchmarking, architecture-level simulation, reproducible scientific computing, and hardware-to-decoder workflows.
 </p>
 
-I am a quantum error correction and quantum software researcher building infrastructure for fault-tolerant, photonic, and hybrid quantum architectures. My work focuses on decoder benchmarking, architecture-level simulation, reproducible scientific computing, and hardware-to-decoder workflows.
+<p>
+I am currently developing <strong>LiDMaS+</strong>, a C++/Rust logical-decoder benchmarking engine for replay-driven QEC studies, decoder comparability, syndrome diagnostics, and reproducible threshold-style workflows. I also build <strong>SchroSIM</strong>, a hardware-agnostic photonic quantum simulator for continuous-variable circuits, Gaussian/non-Gaussian simulation paths, and GKP-oriented architecture studies.
+</p>
 
-I am currently developing **LiDMaS+**, a C++/Rust logical-decoder benchmarking engine for replay-driven QEC studies, decoder comparability, syndrome diagnostics, and reproducible threshold-style workflows. I also build **SchroSIM**, a hardware-agnostic photonic quantum simulator for continuous-variable circuits, Gaussian/non-Gaussian simulation paths, and GKP-oriented architecture studies.
+<p>
+My open-source work spans <strong>PennyLane, Qiskit, Mitiq, Qibolab, Qibo</strong>, and related quantum tooling, with contributions in testing, documentation, diagnostics, circuit rendering, emulator backends, and reproducible examples.
+</p>
 
-My open-source work spans **PennyLane, Qiskit, Mitiq, Qibolab, Qibo**, and related quantum tooling, with contributions in testing, documentation, diagnostics, circuit rendering, emulator backends, and reproducible examples.
+<p>
+<strong>Research interests:</strong> quantum error correction, decoder benchmarking, photonic/CV simulation, GKP codes, tensor-network methods, scientific computing, and compiler-aware quantum architecture modeling.
+</p>
 
-**Research interests:** quantum error correction, decoder benchmarking, photonic/CV simulation, GKP codes, tensor-network methods, scientific computing, and compiler-aware quantum architecture modeling.
+</td>
+<td width="42%" align="center" valign="top">
+
+<img src="./assets/qec-syndrome.svg" width="100%" alt="Animated quantum error correction syndrome lattice" />
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
