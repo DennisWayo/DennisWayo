@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/-PennyLane-black?logo=quantconnect&logoColor=white" />
   <img src="https://img.shields.io/badge/-Qiskit-black?logo=ibm&logoColor=white" />
   <a href="https://github.com/DennisWayo">
-    <img src="https://img.shields.io/github/stars/DennisWayo?label=Stars&style=social" />
   </a>
 </p>
 
