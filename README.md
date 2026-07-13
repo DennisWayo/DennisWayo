@@ -31,6 +31,7 @@ I am currently developing **LiDMaS+**, a C++/Rust logical-decoder benchmarking e
   
 - **Mentor:** IBM Quantum — QAMP & QGSS
 - **Active in:** PennyLane, Qiskit, Mitiq, Qibolab, and Unitary Foundation initiatives
+- **Founder & PI:** Gottesman Software
 - **Reach me:** dwayo3@gatech.edu
 
 <img src="https://komarev.com/ghpvc/?username=DennisWayo&label=Profile%20Views&color=0e75b6&style=flat" alt="DennisWayo profile views" />
